@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/919f10952e.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>KP Web Development Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home"><img id="kp-logo" src="assets/kp-logo.png" alt="kp logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header  -->
+    <section id="header">
+        <div class="container-fluid container">
+            <div class="row">
+                <div class="col-lg-6 order-xs-2 order-2 order-lg-1 m-auto">
+                    <h1>Hi, I'm <span class="purple-text">Kenneth</span>. Your Next Web Developer.</h1>
+                    <h4>I code and develop websites so you dont have to.</h4>
+                    <a href="#section1"><button>About Me<i class="fas fa-arrow-circle-down"></i></button></a>
+                </div>
+                <div id="avatar-div" class="col-lg-6 order-1 order-sm-1 order-lg-2">
+                    <img id="avatar" src="assets/avatar.png" alt="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1 -->
+    <section id="section1">
+        <div class="container-fluid container">
+            <h1>About</h1>
+            <p>I'm a self taught web developer from Atlanta, GA. I found a way to combine my love for tech and problem
+                solving.
+                When I'm not coding websites, I use my spare time studying the latest web technologies and
+                increasing my coding knowledge. (I'm also an anime enthusiast, a gaming connoisseur, and a music
+                fanatic).
+            </p>
+            <div id="cards-section-div" class="container-fluid">
+                <div class="row">
+                    <div class="about-card col-lg-4">
+                        <div class="card-div">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Languages I Speak</h4>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="about-card col-lg-4">
+                        <div class="card-div">
+                            <i class="fas fa-book-open"></i>
+                            <h4>Skills I have</h4>
+                            <ul>
+                                <li>Responsive Web Design</li>
+                                <li>PDF to HTML conversion</li>
+                                <li>Problem Solving</li>
+                                <li>Communication</li>
+                                <li>Time Management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class=" about-card col-lg-4">
+                        <div class="card-div">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Tools I Use</h4>
+                            <ul>
+                                <li>VS Code</li>
+                                <li>Bootstrap</li>
+                                <li>Google Fonts</li>
+                                <li>Font Awesome</li>
+                                <li>Github</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a id="section1-btn" href="#section2"><button class="mt-4 purple-btn">See My Work<i
+                        class="fas fa-arrow-circle-down"></i></button></a>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2">
+        <div class="container-fluid container">
+            <h1 id="section2-h1">My Recent Work</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="https://kennethpwebdevelopment.github.io/Coffee-Roasters-Website/" target="blank_"><img class="website-img" src="assets/coffeeroaster.jpg" alt="coffee roaster website image"></a>
+                        <h4>Coffee Roasters Website</h4>
+                        <p class="p-height1">PDF to HTML conversion using HTML, CSS, JS, and Bootstrap.
+                            This is a 3 page coffee subscription website that uses JS logic.</p>
+                        <a href="https://kennethpwebdevelopment.github.io/Coffee-Roasters-Website/"
+                            target="_blank"><button class="work-btn">Desktop Site</button></a>
+                        <a href="https://github.com/KennethPWebDevelopment/Coffee-Roasters-Website"
+                            target="_blank"><button class="work-btn github-btn">Github</button></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://kennethpwebdevelopment.github.io/Planets-Fact-Website/" target="blank_"><img class="website-img" src="assets/planetfacts.jpg" alt="planets facts website image"></a>
+                        <h4>Planet Facts Website</h4>
+                        <p class="p-height2">PDF to HTML conversion using HTML, CSS, JS, JSON and Bootstrap.
+                            This is an 8-page fact site for all planets in our solar system.</p>
+                        <a href="https://kennethpwebdevelopment.github.io/Planets-Fact-Website/" target="_blank"><button
+                                class="work-btn">Desktop Site</button></a>
+                        <a href="https://github.com/KennethPWebDevelopment/Planets-Fact-Website" target="_blank"><button
+                                class="work-btn github-btn">Github</button></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://kennethpwebdevelopment.github.io/Scoot-Website/" target="blank_"><img class="website-img" src="assets/scoot.jpg" alt="scoot website image"></a>
+                        <h4>Scoot Website</h4>
+                        <p class="p-height3">PDF to HTML conversion using HTML, CSS, and Bootstrap.
+                            This is a 4 page transportation app website I built using figma files.</p>
+                        <a href="https://kennethpwebdevelopment.github.io/Scoot-Website/" target="_blank"><button
+                                class="work-btn">Desktop Site</button></a>
+                        <a href="https://github.com/KennethPWebDevelopment/Scoot-Website" target="_blank"><button
+                                class="work-btn github-btn">Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <a id="section1-btn" href="#section3"><button class="mt-4">Contact Me<i
+                        class="fas fa-arrow-circle-down"></i></button></a>
+        </div>
+    </section>
+
+<!-- Section 3 -->
+
+    <section id="section3">
+        <div class="container-fluid container">
+            <h1>Let's Chat!</h1>
+            <form action="https://formsubmit.co/kpwebdevelopment@gmail.com" method="POST" />
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input name="name" type="name" class="form-control" id="name" aria-describedby="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Email</label>
+                <input name="email" type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea name="textarea" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"
+                    required></textarea>
+            </div>
+            <input type="hidden" name="_next" value="kpwebdevelopment.com/thanks.html">
+            <button type="submit" class="purple-btn mt-3">Submit</button>
+            </form>
+            <div id="social-icons">
+                <a href="https://github.com/KennethPWebDevelopment"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/kenneth-paige-01988320a/"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:kpwebdevelopment@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Javascript File -->
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

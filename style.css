@@ -1,0 +1,416 @@
+:root {
+    --purple: #5650E6;
+    --grey: #939CAA; 
+    --light-grey: #E5ECF4; 
+    --green: #E0E650;
+    --light-purple: #FDFAFF;
+  }
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Utilitie Classes */
+
+/* Containers */
+
+.container {
+    padding: 0rem 3rem;
+} 
+
+/* Typography */
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--dark-navy);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: var(--dark-navy)
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.79px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    margin-bottom: 2rem;
+}
+
+.purple-text {
+    color: var(--purple)
+}
+
+/* Buttons */
+
+button {
+    padding: 0.8rem 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    background-color: var(--purple);
+    color: white;
+    border: 1.5px solid black;
+}
+
+.purple-btn {
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+}
+
+button:hover, .purple-btn:hover {
+    color: var(--purple);
+    background-color: var(--light-purple);
+    border: 1.5px solid var(--purple);
+}
+
+.fas {
+    margin-left: 1rem;
+}
+
+/* Images */
+
+
+/* Navbar */
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dim-grey);
+    background-color: white;
+}
+
+#kp-logo { 
+    width: 40%;
+    margin-top: 2rem;
+}
+
+.nav-link {
+    color: var(--dim-grey);
+    margin: 0rem 0.5rem;
+    float: right;
+}
+
+.nav-link:hover {
+    color: var(--grey);
+}
+
+/* Header  */
+
+#header {
+    padding-bottom: 10%;
+}
+
+#avatar-div {
+    display: flex;
+    justify-content: end;
+}
+
+#avatar {
+    width: 60%;
+}
+
+/* Section 1 */
+
+#section1 {
+    background-color: var(--purple);
+    color: white;
+    text-align: center;
+    padding: 5% 0% 10%;
+}
+
+#section1 > div > p {
+    margin-bottom: 2rem;
+}
+
+.card-div > ul {
+    padding: 0px;
+}
+
+.card-div {
+    background-color: var(--light-purple);
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3rem 0rem;
+    width: 100%;
+    color: black;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.33); 
+    box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.33);
+}
+
+.card-div > ul > li {
+    list-style-type: none;
+}
+
+.card-div > .fas {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--purple)
+}
+
+#cards-section-div {
+    padding: 0px;
+}
+
+.about-card {
+    align-items: stretch;
+    display: flex;
+}
+
+div > .about-card-2 > p {
+    /* font-size: 2rem;
+    line-height: 2rem; */
+}
+
+div > .about-card-2 {
+    background-color: blue;
+}
+
+
+/* Section 2 */
+
+#section2 {
+    text-align: center;
+    padding: 0.5% 0% 10%;
+}
+
+#section2 > div > h1 {
+    margin: 3rem 0rem;
+}
+
+.website-img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.4); 
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.4);
+}
+
+.work-btn {
+    margin: 0.3rem 0rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.3rem;
+    background-color: white;
+    color: var(--purple);
+}
+
+/* Section 3 */
+
+#section3 {
+    text-align: center;
+    background-color: var(--purple);
+    padding: 4% 0% 10%;
+    color: white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#social-icons {
+    font-size: 3rem;
+}
+
+#social-icons > a > i {
+    margin: 2rem 2rem 0rem;
+    color: var(--grey)
+}
+
+#social-icons > a > i:hover {
+    color: white;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+  /* max 1399px */
+
+@media only screen and (max-width: 1399px) {
+    #header {
+        margin-top: 4rem;
+    }
+    #avatar {
+        width: 80%;
+    }
+
+    .p-height1, .p-height2  {
+        margin-bottom: 2.6rem;
+    }
+
+  }
+
+      /* max 1199px */
+
+      @media only screen and (max-width: 1199px) {
+
+        /* Section 2 */
+        .p-height2 {
+            margin-top: 3.8rem;
+            margin-bottom: 0.9rem;
+        }
+        .p-height3 {
+            margin: 4rem 0rem 2.2rem;
+        }
+
+        .work-btn {
+            width: 100%;
+        }
+
+        /* Section 3 */
+
+        form {
+            width: 70%;
+        }
+      }
+
+   /* max 1024px */
+
+   @media only screen and (max-width: 991px) {
+
+    /* Body */
+
+    body {
+    font-size: 20px;
+}
+
+    /* Section 1 */
+
+    #header {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #header > h4 {
+        margin-bottom: 3rem;
+    }
+
+    #avatar {
+        width: 50%;
+        margin: 0 auto 2.5rem;
+    }
+
+    /* #Section 2 */
+
+    #section2 > div > h1 {
+        margin: 5rem 0rem;
+    }
+
+    .work-btn {
+        margin-bottom: 1rem;
+        padding: 2rem 2rem;
+    }
+
+    .github-btn {
+        margin-bottom: 5rem;
+    }
+    /* Section 3 */
+    form {
+        width: 100%;
+    }
+  }
+
+  /* max-width: 595px */
+
+  @media only screen and (max-width: 595px) {
+
+    /* navbar */
+
+    .navbar>.container, 
+    .navbar>.container-fluid, 
+    .navbar>.container-lg, 
+    .navbar>.container-md, 
+    .navbar>.container-sm, 
+    .navbar>.container-xl, 
+    .navbar>.container-xxl {
+        display: block;
+    }
+
+    .navbar-toggler {
+        float: right;
+        margin-top: 3rem;   
+    }
+
+    /* Header */
+
+    #kp-logo {
+        width: 30%;
+    }
+
+    /* Section 1 */
+
+    /* Typography */
+
+
+    /* buttons */
+
+
+}
+
+    /* max-width: 520px */
+
+  @media only screen and (max-width: 520px) {
+
+    /* Body */
+
+    body {
+    font-size: 20px;
+}
+
+    /* Section 1 */
+
+    /* Typography */
+
+    h1 {
+        font-size: 40px;
+    }
+
+    /* buttons */
+
+     button {
+        font-size: 1.5rem;
+    }
+
+    /* header */
+
+    #header {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #avatar {
+        width: 90%;
+        margin: 0 auto 2.5rem;
+    }
+
+    /* Secition 3 */
+
+    #social-icons {
+        font-size: 2.7rem;
+    }
+  }
