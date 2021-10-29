@@ -117,7 +117,7 @@ nav {
 
 /* Header  */
 
-#header {
+#home {
     padding-bottom: 10%;
 }
 
@@ -132,14 +132,14 @@ nav {
 
 /* Section 1 */
 
-#section1 {
+#about {
     background-color: var(--purple);
     color: white;
     text-align: center;
     padding: 5% 0% 10%;
 }
 
-#section1 > div > p {
+#about > div > p {
     margin-bottom: 2rem;
 }
 
@@ -191,12 +191,12 @@ div > .about-card-2 {
 
 /* Section 2 */
 
-#section2 {
+#work {
     text-align: center;
     padding: 0.5% 0% 10%;
 }
 
-#section2 > div > h1 {
+#work > div > h1 {
     margin: 3rem 0rem;
 }
 
@@ -218,7 +218,7 @@ div > .about-card-2 {
 
 /* Section 3 */
 
-#section3 {
+#contact {
     text-align: center;
     background-color: var(--purple);
     padding: 4% 0% 10%;
@@ -252,7 +252,7 @@ form {
   /* max 1399px */
 
 @media only screen and (max-width: 1399px) {
-    #header {
+    #home {
         margin-top: 4rem;
     }
     #avatar {
@@ -301,12 +301,12 @@ form {
 
     /* Section 1 */
 
-    #header {
+    #home {
         text-align: center;
         margin-top: 1rem;
     }
 
-    #header > h4 {
+    #home > h4 {
         margin-bottom: 3rem;
     }
 
@@ -317,7 +317,7 @@ form {
 
     /* #Section 2 */
 
-    #section2 > div > h1 {
+    #work > div > h1 {
         margin: 5rem 0rem;
     }
 
@@ -362,14 +362,6 @@ form {
         width: 30%;
     }
 
-    /* Section 1 */
-
-    /* Typography */
-
-
-    /* buttons */
-
-
 }
 
     /* max-width: 520px */
@@ -382,23 +374,28 @@ form {
     font-size: 20px;
 }
 
-    /* Section 1 */
-
     /* Typography */
 
     h1 {
         font-size: 40px;
     }
 
+    .p-height1, .p-height2, .p-height3 {
+        margin-top: 0px;
+    }
     /* buttons */
 
      button {
         font-size: 1.5rem;
     }
 
+    .work-btn {
+        padding: 1rem 0rem;
+    }
+
     /* header */
 
-    #header {
+    #home {
         text-align: center;
         margin-top: 1rem;
     }
