@@ -179,11 +179,6 @@ nav {
     display: flex;
 }
 
-div > .about-card-2 > p {
-    /* font-size: 2rem;
-    line-height: 2rem; */
-}
-
 div > .about-card-2 {
     background-color: blue;
 }
